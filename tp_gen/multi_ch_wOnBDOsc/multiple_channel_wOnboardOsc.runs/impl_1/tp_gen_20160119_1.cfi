@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            01/19/2016 - 20:52
+SOURCE          D:\SangsWork\tp_gen_2015_feb\tp_gen_2015_feb\tp_gen_2015-2.runs\impl_1\tp_gen_20160119_1.mcs
+DEVICE          131072K
+DATA_WIDTH      16
+FILL_DATA       0xFF
+SIGNATURE       0xC403CCE3
+START_ADDRESS   0x00000000 END_ADDRESS 0x0135591B DIRECTION_UP   "D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1/tdc_front_top.bit" 7vx485tffg1761

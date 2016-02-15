@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hwsession version="1" minor="1">
+  <probeset name="hwsession" active="false">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/TLAST_TEST"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/TREADY_TEST"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/TVALID_TEST"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq3&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq3&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq3&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/ct_state[2]"/>
+        <net name="high_speed_trans_inst/ct_state[1]"/>
+        <net name="high_speed_trans_inst/ct_state[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/dout_mux[63]"/>
+        <net name="high_speed_trans_inst/dout_mux[62]"/>
+        <net name="high_speed_trans_inst/dout_mux[61]"/>
+        <net name="high_speed_trans_inst/dout_mux[60]"/>
+        <net name="high_speed_trans_inst/dout_mux[59]"/>
+        <net name="high_speed_trans_inst/dout_mux[58]"/>
+        <net name="high_speed_trans_inst/dout_mux[57]"/>
+        <net name="high_speed_trans_inst/dout_mux[56]"/>
+        <net name="high_speed_trans_inst/dout_mux[55]"/>
+        <net name="high_speed_trans_inst/dout_mux[54]"/>
+        <net name="high_speed_trans_inst/dout_mux[53]"/>
+        <net name="high_speed_trans_inst/dout_mux[52]"/>
+        <net name="high_speed_trans_inst/dout_mux[51]"/>
+        <net name="high_speed_trans_inst/dout_mux[50]"/>
+        <net name="high_speed_trans_inst/dout_mux[49]"/>
+        <net name="high_speed_trans_inst/dout_mux[48]"/>
+        <net name="high_speed_trans_inst/dout_mux[47]"/>
+        <net name="high_speed_trans_inst/dout_mux[46]"/>
+        <net name="high_speed_trans_inst/dout_mux[45]"/>
+        <net name="high_speed_trans_inst/dout_mux[44]"/>
+        <net name="high_speed_trans_inst/dout_mux[43]"/>
+        <net name="high_speed_trans_inst/dout_mux[42]"/>
+        <net name="high_speed_trans_inst/dout_mux[41]"/>
+        <net name="high_speed_trans_inst/dout_mux[40]"/>
+        <net name="high_speed_trans_inst/dout_mux[39]"/>
+        <net name="high_speed_trans_inst/dout_mux[38]"/>
+        <net name="high_speed_trans_inst/dout_mux[37]"/>
+        <net name="high_speed_trans_inst/dout_mux[36]"/>
+        <net name="high_speed_trans_inst/dout_mux[35]"/>
+        <net name="high_speed_trans_inst/dout_mux[34]"/>
+        <net name="high_speed_trans_inst/dout_mux[33]"/>
+        <net name="high_speed_trans_inst/dout_mux[32]"/>
+        <net name="high_speed_trans_inst/dout_mux[31]"/>
+        <net name="high_speed_trans_inst/dout_mux[30]"/>
+        <net name="high_speed_trans_inst/dout_mux[29]"/>
+        <net name="high_speed_trans_inst/dout_mux[28]"/>
+        <net name="high_speed_trans_inst/dout_mux[27]"/>
+        <net name="high_speed_trans_inst/dout_mux[26]"/>
+        <net name="high_speed_trans_inst/dout_mux[25]"/>
+        <net name="high_speed_trans_inst/dout_mux[24]"/>
+        <net name="high_speed_trans_inst/dout_mux[23]"/>
+        <net name="high_speed_trans_inst/dout_mux[22]"/>
+        <net name="high_speed_trans_inst/dout_mux[21]"/>
+        <net name="high_speed_trans_inst/dout_mux[20]"/>
+        <net name="high_speed_trans_inst/dout_mux[19]"/>
+        <net name="high_speed_trans_inst/dout_mux[18]"/>
+        <net name="high_speed_trans_inst/dout_mux[17]"/>
+        <net name="high_speed_trans_inst/dout_mux[16]"/>
+        <net name="high_speed_trans_inst/dout_mux[15]"/>
+        <net name="high_speed_trans_inst/dout_mux[14]"/>
+        <net name="high_speed_trans_inst/dout_mux[13]"/>
+        <net name="high_speed_trans_inst/dout_mux[12]"/>
+        <net name="high_speed_trans_inst/dout_mux[11]"/>
+        <net name="high_speed_trans_inst/dout_mux[10]"/>
+        <net name="high_speed_trans_inst/dout_mux[9]"/>
+        <net name="high_speed_trans_inst/dout_mux[8]"/>
+        <net name="high_speed_trans_inst/dout_mux[7]"/>
+        <net name="high_speed_trans_inst/dout_mux[6]"/>
+        <net name="high_speed_trans_inst/dout_mux[5]"/>
+        <net name="high_speed_trans_inst/dout_mux[4]"/>
+        <net name="high_speed_trans_inst/dout_mux[3]"/>
+        <net name="high_speed_trans_inst/dout_mux[2]"/>
+        <net name="high_speed_trans_inst/dout_mux[1]"/>
+        <net name="high_speed_trans_inst/dout_mux[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[31]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[30]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[29]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[28]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[27]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[26]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[25]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[24]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[23]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[22]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[21]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[20]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[19]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[18]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[17]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[16]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[15]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[14]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[13]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[12]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[11]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[10]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[9]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[8]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[7]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[6]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[5]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[4]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[3]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[2]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[1]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_M_AXIS_TDATA_TEST_pin[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq4&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq4&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq4&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/fifo2ddr_0_STATE_TEST_pin[3]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_STATE_TEST_pin[2]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_STATE_TEST_pin[1]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_STATE_TEST_pin[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[31]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[30]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[29]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[28]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[27]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[26]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[25]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[24]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[23]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[22]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[21]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[20]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[19]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[18]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[17]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[16]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[15]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[14]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[13]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[12]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[11]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[10]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[9]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[8]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[7]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[6]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[5]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[4]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[3]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[2]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[1]"/>
+        <net name="high_speed_trans_inst/fifo2ddr_0_nr_of_writes_TEST_pin[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/fifo2ddr_0_rd_en_pin"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq64&apos;hXXXX_XXXX_XXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/fifo_data_int[63]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[62]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[61]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[60]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[59]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[58]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[57]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[56]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[55]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[54]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[53]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[52]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[51]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[50]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[49]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[48]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[47]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[46]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[45]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[44]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[43]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[42]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[41]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[40]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[39]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[38]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[37]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[36]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[35]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[34]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[33]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[32]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[31]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[30]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[29]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[28]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[27]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[26]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[25]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[24]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[23]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[22]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[21]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[20]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[19]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[18]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[17]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[16]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[15]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[14]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[13]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[12]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[11]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[10]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[9]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[8]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[7]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[6]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[5]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[4]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[3]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[2]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[1]"/>
+        <net name="high_speed_trans_inst/fifo_data_int[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/fifo_overflow"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/fifo_underflow"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq3&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq3&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq3&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/nt_state[2]"/>
+        <net name="high_speed_trans_inst/nt_state[1]"/>
+        <net name="high_speed_trans_inst/nt_state[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="high_speed_trans_inst/wr_out_mux"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

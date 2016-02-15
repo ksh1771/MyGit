@@ -1,0 +1,142 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Sat Dec 05 15:37:24 2015
+| Host         : shkim-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7vx485tffg1761-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'axi_system_regfiles_lite_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of axi_system_regfiles_lite_0_0 (fedadesign.com:fedalib:regfiles_lite:1.0 (Rev. 5)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (lin64) Build 1071353 Tue Nov 18 16:47:07 MST 2014
+| Date         : Thu Nov 26 07:20:20 2015
+| Host         : sang_linc running 64-bit Red Hat Enterprise Linux Client release 6.5 (Santiago)
+| Command      : upgrade_ip
+| Device       : xc7vx485tffg1761-2
+-------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'axi_system_regfiles_lite_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of axi_system_regfiles_lite_0_0 (fedadesign.com:fedalib:regfiles_lite:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'axi_system_regfiles_lite_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'clk_spi_data'
+-upgrade has added port 'clk_spi_start'
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (lin64) Build 1071353 Tue Nov 18 16:47:07 MST 2014
+| Date         : Sat Nov 21 05:12:30 2015
+| Host         : sang_linc running 64-bit Red Hat Enterprise Linux Client release 6.5 (Santiago)
+| Command      : upgrade_ip
+| Device       : xc7vx485tffg1761-2
+-------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'axi_system_regfiles_lite_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of axi_system_regfiles_lite_0_0 (fedadesign.com:fedalib:regfiles_lite:1.0) from (Rev. 3) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'axi_system_regfiles_lite_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'dac_spi_data'
+-upgrade has added port 'dac_spi_start'
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (lin64) Build 1071353 Tue Nov 18 16:47:07 MST 2014
+| Date         : Thu Nov  5 03:16:30 2015
+| Host         : sang_linc running 64-bit Red Hat Enterprise Linux Client release 6.5 (Santiago)
+| Command      : upgrade_ip
+| Device       : xc7vx485tffg1761-2
+-------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'axi_system_regfiles_lite_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of axi_system_regfiles_lite_0_0 (fedadesign.com:fedalib:regfiles_lite:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'axi_system_regfiles_lite_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'tdc_en_bypass_on'
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (lin64) Build 1071353 Tue Nov 18 16:47:07 MST 2014
+| Date         : Mon Sep  7 12:18:45 2015
+| Host         : sang_linc running 64-bit Red Hat Enterprise Linux Client release 6.5 (Santiago)
+| Command      : upgrade_ip
+| Device       : xc7vx485tffg1761-2
+-------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'axi_system_regfiles_lite_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of axi_system_regfiles_lite_0_0 (fedadesign.com:fedalib:regfiles_lite:1.0) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'axi_system_regfiles_lite_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'calib_bit'
+

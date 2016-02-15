@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Tue Jan 19 18:16:51 2016
+# Process ID: 16248
+# Log file: D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1/tdc_front_top.rdi
+# Journal file: D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+Attempting to get a license: Implementation
+Feature available: Implementation
+Loading parts and site information from C:/Xilinx/Vivado/2013.4/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+source tdc_front_top.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/clk_wiz_0_synth_1/clk_wiz_0.dcp' for cell 'clk_wiz_inst'
+INFO: [Netlist 29-17] Analyzing 84 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'tdc_front_top' is not ideal for floorplanning, since the cellview 'ila_v3_0_ila' defined in file 'tdc_front_top.edf' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2013.4
+Loading clock regions from C:/Xilinx/Vivado/2013.4/data\parts/xilinx/virtex7/virtex7/xc7vx485t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2013.4/data\parts/xilinx/virtex7/virtex7/xc7vx485t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2013.4/data/parts/xilinx/virtex7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2013.4/data\parts/xilinx/virtex7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2013.4/data\parts/xilinx/virtex7/virtex7/xc7vx485t/ffg1761/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2013.4/data\./parts/xilinx/virtex7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2013.4/data\parts/xilinx/virtex7/ConfigModes.xml
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Parsing XDC File [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1/.Xil/Vivado-16248-MSDN-SPECIAL/dcp_2/clk_wiz_0_board.xdc] for cell 'clk_wiz_inst'
+Finished Parsing XDC File [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1/.Xil/Vivado-16248-MSDN-SPECIAL/dcp_2/clk_wiz_0_board.xdc] for cell 'clk_wiz_inst'
+Parsing XDC File [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1/.Xil/Vivado-16248-MSDN-SPECIAL/dcp_2/clk_wiz_0_early.xdc] for cell 'clk_wiz_inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:56]
+INFO: [Timing 38-2] Deriving generated clocks [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:56]
+Finished Parsing XDC File [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1/.Xil/Vivado-16248-MSDN-SPECIAL/dcp_2/clk_wiz_0_early.xdc] for cell 'clk_wiz_inst'
+Parsing XDC File [d:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/ip/ila_0_0/constraints/ila.xdc] for cell 'ila_0_inst/inst'
+Finished Parsing XDC File [d:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/ip/ila_0_0/constraints/ila.xdc] for cell 'ila_0_inst/inst'
+Parsing XDC File [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.srcs/constrs_1/tdc_front_top.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk_in'. [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.srcs/constrs_1/tdc_front_top.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.srcs/constrs_1/tdc_front_top.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'clk_in'. [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.srcs/constrs_1/tdc_front_top.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.srcs/constrs_1/tdc_front_top.xdc:20]
+Finished Parsing XDC File [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.srcs/constrs_1/tdc_front_top.xdc]
+Parsing XDC File [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1/.Xil/Vivado-16248-MSDN-SPECIAL/dcp/tdc_front_top.xdc]
+Finished Parsing XDC File [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1/.Xil/Vivado-16248-MSDN-SPECIAL/dcp/tdc_front_top.xdc]
+Parsing XDC File [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1/.Xil/Vivado-16248-MSDN-SPECIAL/dcp_2/clk_wiz_0.xdc] for cell 'clk_wiz_inst'
+Finished Parsing XDC File [D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1/.Xil/Vivado-16248-MSDN-SPECIAL/dcp_2/clk_wiz_0.xdc] for cell 'clk_wiz_inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 76 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 76 instances
+
+link_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 1129.375 ; gain = 940.555
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.215 . Memory (MB): peak = 1132.750 ; gain = 3.352
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-126] Generating and synthesizing debug core dbg_hub...

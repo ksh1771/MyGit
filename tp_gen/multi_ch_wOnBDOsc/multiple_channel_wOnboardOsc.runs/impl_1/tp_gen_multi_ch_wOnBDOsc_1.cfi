@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            02/15/2016 - 23:12
+SOURCE          D:\RHEL_work\MyGit\tp_gen\multi_ch_wOnBDOsc\multiple_channel_wOnboardOsc.runs\impl_1\tp_gen_multi_ch_wOnBDOsc_1.mcs
+DEVICE          131072K
+DATA_WIDTH      16
+FILL_DATA       0xFF
+SIGNATURE       0xC436C749
+START_ADDRESS   0x00000000 END_ADDRESS 0x0135591B DIRECTION_UP   "D:/RHEL_work/MyGit/tp_gen/multi_ch_wOnBDOsc/multiple_channel_wOnboardOsc.runs/impl_1/tdc_front_top.bit" 7vx485tffg1761

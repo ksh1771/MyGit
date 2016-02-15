@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Mon Feb 02 10:13:57 2015
+# Process ID: 2604
+# Log file: E:/projects/tp_gen_0113/tp_gen_0113.runs/impl_1/tdc_front_top.rdi
+# Journal file: E:/projects/tp_gen_0113/tp_gen_0113.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source tdc_front_top.tcl -notrace

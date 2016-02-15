@@ -1,0 +1,14 @@
+Vivado Simulator 2013.4
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2013.4/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot tp_gen_tb_behav --prj E:/projects/tp_gen_2015_feb/tp_gen_2015-2.sim/sim_1/behav/tp_gen_tb.prj work.tp_gen_tb work.glbl 
+Multi-threading is on. Using 2 slave threads.
+INFO: [VRFC 10-165] Analyzing Verilog file "e:/projects/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "e:/projects/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "e:/projects/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/ip/ila_0_0/sim/ila_0.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "E:/projects/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/imports/tdc_front_top.v" into library work
+ERROR: [VRFC 10-1412] syntax error near { [E:/projects/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/imports/tdc_front_top.v:37]
+ERROR: [VRFC 10-1412] syntax error near = [E:/projects/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/imports/tdc_front_top.v:63]
+ERROR: [VRFC 10-91] temp_clk is not declared [E:/projects/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/imports/tdc_front_top.v:59]
+ERROR: [VRFC 10-91] temp_clk is not declared [E:/projects/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/imports/tdc_front_top.v:61]
+ERROR: [VRFC 10-51] t_clk is an unknown type [E:/projects/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/imports/tdc_front_top.v:63]
+ERROR: [VRFC 10-1040] module tdc_front_top ignored due to previous errors [E:/projects/tp_gen_2015_feb/tp_gen_2015-2.srcs/sources_1/imports/tdc_front_top.v:3]

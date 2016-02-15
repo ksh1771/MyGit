@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat Dec 12 07:52:13 2015
+# Process ID: 3188
+# Log file: /home/skim/tdc_64ch_v2/V7_v2/V7_20151114_hixfer_3/V7_20151114_hixfer_3.runs/ch_fifo_synth_1/ch_fifo.vds
+# Journal file: /home/skim/tdc_64ch_v2/V7_v2/V7_20151114_hixfer_3/V7_20151114_hixfer_3.runs/ch_fifo_synth_1/vivado.jou
+#-----------------------------------------------------------
+source ch_fifo.tcl -notrace

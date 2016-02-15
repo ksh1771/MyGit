@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="30">
+  <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sim_1/new/tp_gen_tb.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.srcs/sim_1/new/tp_gen_tb.v"/>
+        <Attr Name="ImportTime" Val="1423544104"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_tb_behav.wcfg">
+      <FileInfo>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="tp_gen_tb"/>
+      <Option Name="SimulationRunTime" Val="10000ns"/>
+      <Option Name="SimMode" Val="post-implementation"/>
+      <Option Name="SrcSet" Val="sources_1"/>
+      <Option Name="XSimWcfgFile" Val="$PPRDIR/../../../../SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_tb_behav.wcfg"/>
+    </Config>
+  </FileSet>
+</DARoots>

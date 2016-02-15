@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o D:\SangsWork\tp_gen_2015_feb\tp_gen_2015_feb\tp_gen_2015-2.runs\impl_1//tp_gen_15116_1 -s 131072 -u 00000000 D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1/tdc_front_top.bit -bpi_dc parallel -data_width 16 
+
+PROM D:\SangsWork\tp_gen_2015_feb\tp_gen_2015_feb\tp_gen_2015-2.runs\impl_1\tp_gen_15116_1.prm map: Thu Nov 26 18:43:35 2015
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          131072K
+PROM start    0000:0000
+PROM end      07ff:ffff
+PROM checksum c4265546
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0135:591b     Nov 26 18:43:03 2015 D:/SangsWork/tp_gen_2015_feb/tp_gen_2015_feb/tp_gen_2015-2.runs/impl_1/tdc_front_top.bit
