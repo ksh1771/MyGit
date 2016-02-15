@@ -1,0 +1,58 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Dec 09 16:47:06 2015
+| Host         : shkim-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7vx485tffg1761-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'axi_system_fifo2ddr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of axi_system_fifo2ddr_0_0 (fedadesign.com:fedalib:fifo2ddr:1.0 (Rev. 6)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Sat Dec 05 15:37:24 2015
+| Host         : shkim-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7vx485tffg1761-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'axi_system_fifo2ddr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of axi_system_fifo2ddr_0_0 (fedadesign.com:fedalib:fifo2ddr:1.0 (Rev. 6)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Sat Dec 05 15:05:13 2015
+| Host         : shkim-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7vx485tffg1761-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'axi_system_fifo2ddr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of axi_system_fifo2ddr_0_0 (fedadesign.com:fedalib:fifo2ddr:1.0) from (Rev. 3) to (Rev. 6)
+

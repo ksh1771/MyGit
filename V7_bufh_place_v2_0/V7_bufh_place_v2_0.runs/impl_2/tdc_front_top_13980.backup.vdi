@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Dec 10 21:00:31 2015
+# Process ID: 10732
+# Log file: C:/Work/TDC_64/V7_20151114_hixfer_2/V7_20151114_hixfer_2.runs/impl_2/tdc_front_top.vdi
+# Journal file: C:/Work/TDC_64/V7_20151114_hixfer_2/V7_20151114_hixfer_2.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source tdc_front_top.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'C:/Work/TDC_64/V7_20151114_hixfer_2/V7_20151114_hixfer_2.runs/ch_fifo_synth_1/ch_fifo.dcp' for cell 'front_TDC_1ch_ref_inst/rle_enc_inst_0/ch_fifo_inst'
