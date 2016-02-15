@@ -52,60 +52,60 @@ set rc [catch {
   create_project -in_memory -part xc7vx485tffg1761-2
   set_property board_part xilinx.com:vc707:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
-  set_property webtalk.parent_dir /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.cache/wt [current_project]
-  set_property parent.project_path /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.xpr [current_project]
+  set_property webtalk.parent_dir /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.cache/wt [current_project]
+  set_property parent.project_path /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.xpr [current_project]
   set_property ip_repo_paths {
-  /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.cache/ip
-  /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/axi4lite_gp_1.0_0_0
-  /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/gen_test_pulse_lite_1.0_0_0
-  /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/regfiles_lite_1.0_0_0
-  /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/tdc_calib_capture_lite_1.0_0_0
-  /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/fifo2ddr_v1_0_project_0_0
-  /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/axi4lite_gp_1.0_0
-  /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/gen_test_pulse_lite_1.0_0
-  /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/regfiles_lite_1.0_0
-  /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/tdc_calib_capture_lite_1.0_0
-  /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/fifo2ddr_v1_0_project_0
+  /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.cache/ip
+  /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/axi4lite_gp_1.0_0_0
+  /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/gen_test_pulse_lite_1.0_0_0
+  /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/regfiles_lite_1.0_0_0
+  /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/tdc_calib_capture_lite_1.0_0_0
+  /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/fifo2ddr_v1_0_project_0_0
+  /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/axi4lite_gp_1.0_0
+  /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/gen_test_pulse_lite_1.0_0
+  /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/regfiles_lite_1.0_0
+  /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/tdc_calib_capture_lite_1.0_0
+  /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/fifo2ddr_v1_0_project_0
 } [current_project]
-  set_property ip_output_repo /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.cache/ip [current_project]
-  add_files -quiet /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/synth_2/tdc_front_top.dcp
-  add_files -quiet /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/ch_fifo_synth_1/ch_fifo.dcp
-  set_property netlist_only true [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/ch_fifo_synth_1/ch_fifo.dcp]
-  add_files -quiet /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/system_big_fifo_synth_1/system_big_fifo.dcp
-  set_property netlist_only true [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/system_big_fifo_synth_1/system_big_fifo.dcp]
-  read_xdc -ref axi_system_axi_chip2chip_0_0 -cells inst /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_chip2chip_0_0/axi_system_axi_chip2chip_0_0.xdc
-  set_property processing_order EARLY [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_chip2chip_0_0/axi_system_axi_chip2chip_0_0.xdc]
-  read_xdc -prop_thru_buffers -ref axi_system_proc_sys_reset_0_0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_0_0/axi_system_proc_sys_reset_0_0_board.xdc
-  set_property processing_order EARLY [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_0_0/axi_system_proc_sys_reset_0_0_board.xdc]
-  read_xdc -ref axi_system_proc_sys_reset_0_0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_0_0/axi_system_proc_sys_reset_0_0.xdc
-  set_property processing_order EARLY [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_0_0/axi_system_proc_sys_reset_0_0.xdc]
-  read_xdc -ref axi_system_mig_7series_0_0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_mig_7series_0_0/axi_system_mig_7series_0_0/user_design/constraints/axi_system_mig_7series_0_0.xdc
-  set_property processing_order EARLY [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_mig_7series_0_0/axi_system_mig_7series_0_0/user_design/constraints/axi_system_mig_7series_0_0.xdc]
-  read_xdc -ref axi_system_axi_dma_0_0 -cells U0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_dma_0_0/axi_system_axi_dma_0_0.xdc
-  set_property processing_order EARLY [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_dma_0_0/axi_system_axi_dma_0_0.xdc]
-  read_xdc -prop_thru_buffers -ref axi_system_proc_sys_reset_1_0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_1_0/axi_system_proc_sys_reset_1_0_board.xdc
-  set_property processing_order EARLY [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_1_0/axi_system_proc_sys_reset_1_0_board.xdc]
-  read_xdc -ref axi_system_proc_sys_reset_1_0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_1_0/axi_system_proc_sys_reset_1_0.xdc
-  set_property processing_order EARLY [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_1_0/axi_system_proc_sys_reset_1_0.xdc]
-  read_xdc -mode out_of_context -ref ch_fifo -cells U0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/ch_fifo/ch_fifo_ooc.xdc
-  set_property processing_order EARLY [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/ch_fifo/ch_fifo_ooc.xdc]
-  read_xdc -ref ch_fifo -cells U0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/ch_fifo/ch_fifo/ch_fifo.xdc
-  set_property processing_order EARLY [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/ch_fifo/ch_fifo/ch_fifo.xdc]
-  read_xdc -mode out_of_context -ref system_big_fifo -cells U0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/fifo_generator_v9_3_0/system_big_fifo_ooc.xdc
-  set_property processing_order EARLY [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/fifo_generator_v9_3_0/system_big_fifo_ooc.xdc]
-  read_xdc -ref system_big_fifo -cells U0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/fifo_generator_v9_3_0/system_big_fifo/system_big_fifo.xdc
-  set_property processing_order EARLY [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/fifo_generator_v9_3_0/system_big_fifo/system_big_fifo.xdc]
-  read_xdc /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/constrs_1/tdc_front_top.xdc
-  read_xdc -ref axi_system_axi_chip2chip_0_0 -cells inst /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_chip2chip_0_0/axi_system_axi_chip2chip_0_0_clocks.xdc
-  set_property processing_order LATE [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_chip2chip_0_0/axi_system_axi_chip2chip_0_0_clocks.xdc]
-  read_xdc -ref axi_system_axi_dma_0_0 -cells U0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_dma_0_0/axi_system_axi_dma_0_0_clocks.xdc
-  set_property processing_order LATE [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_dma_0_0/axi_system_axi_dma_0_0_clocks.xdc]
-  read_xdc -ref axi_system_auto_cc_0 -cells inst /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_auto_cc_0/axi_system_auto_cc_0_clocks.xdc
-  set_property processing_order LATE [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_auto_cc_0/axi_system_auto_cc_0_clocks.xdc]
-  read_xdc -ref ch_fifo -cells U0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/ch_fifo/ch_fifo/ch_fifo_clocks.xdc
-  set_property processing_order LATE [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/ch_fifo/ch_fifo/ch_fifo_clocks.xdc]
-  read_xdc -ref system_big_fifo -cells U0 /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/fifo_generator_v9_3_0/system_big_fifo/system_big_fifo_clocks.xdc
-  set_property processing_order LATE [get_files /mnt/share/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/fifo_generator_v9_3_0/system_big_fifo/system_big_fifo_clocks.xdc]
+  set_property ip_output_repo /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.cache/ip [current_project]
+  add_files -quiet /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/synth_2/tdc_front_top.dcp
+  add_files -quiet /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/ch_fifo_synth_1/ch_fifo.dcp
+  set_property netlist_only true [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/ch_fifo_synth_1/ch_fifo.dcp]
+  add_files -quiet /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/system_big_fifo_synth_1/system_big_fifo.dcp
+  set_property netlist_only true [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/system_big_fifo_synth_1/system_big_fifo.dcp]
+  read_xdc -ref axi_system_axi_chip2chip_0_0 -cells inst /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_chip2chip_0_0/axi_system_axi_chip2chip_0_0.xdc
+  set_property processing_order EARLY [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_chip2chip_0_0/axi_system_axi_chip2chip_0_0.xdc]
+  read_xdc -prop_thru_buffers -ref axi_system_proc_sys_reset_0_0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_0_0/axi_system_proc_sys_reset_0_0_board.xdc
+  set_property processing_order EARLY [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_0_0/axi_system_proc_sys_reset_0_0_board.xdc]
+  read_xdc -ref axi_system_proc_sys_reset_0_0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_0_0/axi_system_proc_sys_reset_0_0.xdc
+  set_property processing_order EARLY [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_0_0/axi_system_proc_sys_reset_0_0.xdc]
+  read_xdc -ref axi_system_mig_7series_0_0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_mig_7series_0_0/axi_system_mig_7series_0_0/user_design/constraints/axi_system_mig_7series_0_0.xdc
+  set_property processing_order EARLY [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_mig_7series_0_0/axi_system_mig_7series_0_0/user_design/constraints/axi_system_mig_7series_0_0.xdc]
+  read_xdc -ref axi_system_axi_dma_0_0 -cells U0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_dma_0_0/axi_system_axi_dma_0_0.xdc
+  set_property processing_order EARLY [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_dma_0_0/axi_system_axi_dma_0_0.xdc]
+  read_xdc -prop_thru_buffers -ref axi_system_proc_sys_reset_1_0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_1_0/axi_system_proc_sys_reset_1_0_board.xdc
+  set_property processing_order EARLY [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_1_0/axi_system_proc_sys_reset_1_0_board.xdc]
+  read_xdc -ref axi_system_proc_sys_reset_1_0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_1_0/axi_system_proc_sys_reset_1_0.xdc
+  set_property processing_order EARLY [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_proc_sys_reset_1_0/axi_system_proc_sys_reset_1_0.xdc]
+  read_xdc -mode out_of_context -ref ch_fifo -cells U0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/ch_fifo/ch_fifo_ooc.xdc
+  set_property processing_order EARLY [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/ch_fifo/ch_fifo_ooc.xdc]
+  read_xdc -ref ch_fifo -cells U0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/ch_fifo/ch_fifo/ch_fifo.xdc
+  set_property processing_order EARLY [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/ch_fifo/ch_fifo/ch_fifo.xdc]
+  read_xdc -mode out_of_context -ref system_big_fifo -cells U0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/fifo_generator_v9_3_0/system_big_fifo_ooc.xdc
+  set_property processing_order EARLY [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/fifo_generator_v9_3_0/system_big_fifo_ooc.xdc]
+  read_xdc -ref system_big_fifo -cells U0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/fifo_generator_v9_3_0/system_big_fifo/system_big_fifo.xdc
+  set_property processing_order EARLY [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/fifo_generator_v9_3_0/system_big_fifo/system_big_fifo.xdc]
+  read_xdc /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/constrs_1/tdc_front_top.xdc
+  read_xdc -ref axi_system_axi_chip2chip_0_0 -cells inst /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_chip2chip_0_0/axi_system_axi_chip2chip_0_0_clocks.xdc
+  set_property processing_order LATE [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_chip2chip_0_0/axi_system_axi_chip2chip_0_0_clocks.xdc]
+  read_xdc -ref axi_system_axi_dma_0_0 -cells U0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_dma_0_0/axi_system_axi_dma_0_0_clocks.xdc
+  set_property processing_order LATE [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_dma_0_0/axi_system_axi_dma_0_0_clocks.xdc]
+  read_xdc -ref axi_system_auto_cc_0 -cells inst /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_auto_cc_0/axi_system_auto_cc_0_clocks.xdc
+  set_property processing_order LATE [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_auto_cc_0/axi_system_auto_cc_0_clocks.xdc]
+  read_xdc -ref ch_fifo -cells U0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/ch_fifo/ch_fifo/ch_fifo_clocks.xdc
+  set_property processing_order LATE [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/ch_fifo/ch_fifo/ch_fifo_clocks.xdc]
+  read_xdc -ref system_big_fifo -cells U0 /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/fifo_generator_v9_3_0/system_big_fifo/system_big_fifo_clocks.xdc
+  set_property processing_order LATE [get_files /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ip/fifo_generator_v9_3_0/system_big_fifo/system_big_fifo_clocks.xdc]
   link_design -top tdc_front_top -part xc7vx485tffg1761-2
   close_msg_db -file init_design.pb
 } RESULT]
@@ -173,12 +173,12 @@ start_step write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   set src_rc [catch { 
-    puts "source /../../../../../home/skim/tdc_64ch_v2/V7_v2/V7_20151114_hixfer_3/V7_20151114_hixfer_3.runs/impl_2/pre.tcl"
-    source /../../../../../home/skim/tdc_64ch_v2/V7_v2/V7_20151114_hixfer_3/V7_20151114_hixfer_3.runs/impl_2/pre.tcl
+    puts "source /../../../../home/skim/tdc_64ch_v2/V7_v2/V7_20151114_hixfer_3/V7_20151114_hixfer_3.runs/impl_2/pre.tcl"
+    source /../../../../home/skim/tdc_64ch_v2/V7_v2/V7_20151114_hixfer_3/V7_20151114_hixfer_3.runs/impl_2/pre.tcl
   } _RESULT] 
   if {$src_rc} { 
     send_msg_id runtcl-1 error "$_RESULT"
-    send_msg_id runtcl-2 error "sourcing script /../../../../../home/skim/tdc_64ch_v2/V7_v2/V7_20151114_hixfer_3/V7_20151114_hixfer_3.runs/impl_2/pre.tcl failed"
+    send_msg_id runtcl-2 error "sourcing script /../../../../home/skim/tdc_64ch_v2/V7_v2/V7_20151114_hixfer_3/V7_20151114_hixfer_3.runs/impl_2/pre.tcl failed"
     return -code error
   }
   write_bitstream -force tdc_front_top.bit 

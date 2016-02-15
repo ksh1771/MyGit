@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Feb 15 20:40:30 2016
+# Process ID: 7080
+# Log file: /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/impl_2/tdc_front_top.vdi
+# Journal file: /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/impl_2/vivado.jou
+#-----------------------------------------------------------
+source tdc_front_top.tcl -notrace

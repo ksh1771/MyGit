@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_2" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1455533339">
+<GenRun Id="synth_2" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1455534601">
   <File Type="VDS-TIMING-PB" Name="tdc_front_top_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="tdc_front_top_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="tdc_front_top.dcp"/>
   <File Type="RDS-UTIL-PB" Name="tdc_front_top_utilization_synth.pb"/>
   <File Type="RDS-UTIL" Name="tdc_front_top_utilization_synth.rpt"/>
-  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_2/constrs_in.xml"/>
-  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_2/sources.xml"/>
-  <File Type="RDS-RDS" Name="tdc_front_top.vds"/>
-  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_2/synth_2.psg"/>
-  <File Type="PA-TCL" Name="tdc_front_top.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="tdc_front_top_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="tdc_front_top.vds"/>
+  <File Type="PA-TCL" Name="tdc_front_top.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_2/synth_2.psg"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_2/sources.xml"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_2/constrs_in.xml"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/tp_gen.v">
