@@ -291,6 +291,7 @@ clk_mmcme_main
 clk_mmcme_main_2(
          	.CLK_IN1(fe_src_clk),					// 100MHz clk in
          	.CLK_OUT1(sys_clk2_s), 						// 500MHz front-end clock (phase 2)
+//         	.CLK_OUT1(), 						// 500MHz front-end clock (phase 2)         	
          	.PSCLK(psclk),
          	.PSEN(psen[2]),
          	.PSINCDEC(psincdec[2]),
@@ -304,7 +305,8 @@ clk_mmcme_main
 #(.clk_phase(0))
 clk_mmcme_main_3(
         	.CLK_IN1(fe_src_clk),					// 100MHz clk in
-         	.CLK_OUT1(sys_clk3_s), 						// 500MHz front-end clock (phase 3)
+//         	.CLK_OUT1(sys_clk3_s), 						// 500MHz front-end clock (phase 3)
+         	.CLK_OUT1(), 						// 500MHz front-end clock (phase 3)
          	.PSCLK(psclk),
          	.PSEN(psen[3]),
          	.PSINCDEC(psincdec[3]),
@@ -318,7 +320,8 @@ clk_mmcme_main
 #(.clk_phase(0))
 clk_mmcme_main_4(
         	.CLK_IN1(fe_src_clk),					// 100MHz clk in
-         	.CLK_OUT1(sys_clk4_s), 						// 500MHz front-end clock (phase 4)
+//         	.CLK_OUT1(sys_clk4_s), 						// 500MHz front-end clock (phase 4)
+         	.CLK_OUT1(), 						// 500MHz front-end clock (phase 4)
          	.PSCLK(psclk),
          	.PSEN(psen[4]),
          	.PSINCDEC(psincdec[4]),
@@ -332,7 +335,8 @@ clk_mmcme_main
 #(.clk_phase(0))
 clk_mmcme_main_5(
        		.CLK_IN1(fe_src_clk),					// 100MHz clk in
-       		.CLK_OUT1(sys_clk5_s), 						// 500MHz front-end clock (phase 5)
+//       		.CLK_OUT1(sys_clk5_s), 						// 500MHz front-end clock (phase 5)
+       		.CLK_OUT1(), 						// 500MHz front-end clock (phase 5)
        		.PSCLK(psclk),
        		.PSEN(psen[5]),
        		.PSINCDEC(psincdec[5]),
@@ -346,7 +350,8 @@ clk_mmcme_main
 #(.clk_phase(0))
 clk_mmcme_main_6(
          	.CLK_IN1(fe_src_clk),					// 100MHz clk in
-         	.CLK_OUT1(sys_clk6_s), 						// 500MHz front-end clock (phase 6)
+//         	.CLK_OUT1(sys_clk6_s), 						// 500MHz front-end clock (phase 6)
+         	.CLK_OUT1(), 						// 500MHz front-end clock (phase 6)
          	.PSCLK(psclk),
          	.PSEN(psen[6]),
          	.PSINCDEC(psincdec[6]),
@@ -360,7 +365,8 @@ clk_mmcme_main
 #(.clk_phase(0))
 clk_mmcme_main_7(
        		.CLK_IN1(fe_src_clk),					// 100MHz clk in
-       		.CLK_OUT1(sys_clk7_s), 						// 500MHz front-end clock (phase 7)
+//       		.CLK_OUT1(sys_clk7_s), 						// 500MHz front-end clock (phase 7)
+       		.CLK_OUT1(), 						// 500MHz front-end clock (phase 7)
        		.PSCLK(psclk),
        		.PSEN(psen[7]),
        		.PSINCDEC(psincdec[7]),
@@ -374,7 +380,8 @@ clk_mmcme_main
 #(.clk_phase(0))
 clk_mmcme_main_8(
        		.CLK_IN1(fe_src_clk),					// 100MHz clk in
-       		.CLK_OUT1(sys_clk8_s), 						// 500MHz front-end clock (phase 8)
+//       		.CLK_OUT1(sys_clk8_s), 						// 500MHz front-end clock (phase 8)
+       		.CLK_OUT1(), 						// 500MHz front-end clock (phase 8)
        		.PSCLK(psclk),
        		.PSEN(psen[8]),
        		.PSINCDEC(psincdec[8]),
@@ -388,7 +395,8 @@ clk_mmcme_main
 #(.clk_phase(0))
 clk_mmcme_main_9(
          	.CLK_IN1(fe_src_clk),					// 100MHz clk in
-         	.CLK_OUT1(sys_clk9_s), 						// 500MHz front-end clock (phase 9)
+//         	.CLK_OUT1(sys_clk9_s), 						// 500MHz front-end clock (phase 9)
+         	.CLK_OUT1(), 						// 500MHz front-end clock (phase 9)
          	.PSCLK(psclk),
          	.PSEN(psen[9]),
          	.PSINCDEC(psincdec[9]),
@@ -402,7 +410,8 @@ clk_mmcme_main
 #(.clk_phase(0))
 clk_mmcme_main_10(
          	.CLK_IN1(fe_src_clk),					// 100MHz clk in
-         	.CLK_OUT1(sys_clk10_s), 					// 500MHz front-end clock (phase 10)
+//         	.CLK_OUT1(sys_clk10_s), 					// 500MHz front-end clock (phase 10)
+         	.CLK_OUT1(), 					// 500MHz front-end clock (phase 10)
          	.PSCLK(psclk),
          	.PSEN(psen[10]),
          	.PSINCDEC(psincdec[10]),
@@ -416,7 +425,8 @@ clk_mmcme_main
 #(.clk_phase(0))
 clk_mmcme_main_11(
          	.CLK_IN1(fe_src_clk),					// 100MHz clk in
-         	.CLK_OUT1(sys_clk11_s), 					// 500MHz front-end clock (phase 11)
+//         	.CLK_OUT1(sys_clk11_s), 					// 500MHz front-end clock (phase 11)
+         	.CLK_OUT1(), 					// 500MHz front-end clock (phase 11)         	
          	.PSCLK(psclk),
          	.PSEN(psen[11]),
          	.PSINCDEC(psincdec[11]),

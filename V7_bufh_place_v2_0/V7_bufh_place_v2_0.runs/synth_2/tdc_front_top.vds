@@ -2,8 +2,8 @@
 # Vivado v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
-# Start of session at: Mon Feb 15 20:13:52 2016
-# Process ID: 5302
+# Start of session at: Tue Feb 16 20:46:52 2016
+# Process ID: 8892
 # Log file: /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/synth_2/tdc_front_top.vds
 # Journal file: /mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/synth_2/vivado.jou
 #-----------------------------------------------------------
@@ -25,12 +25,12 @@ If this directory should no longer be in your list of user repositories, go to t
 WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.ipdefs/fifo2ddr_v1_0_project_0'; Can't find the specified path.
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.2/data/ip'.
-add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1070.988 ; gain = 83.086 ; free physical = 5074 ; free virtual = 12208
+add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:22 . Memory (MB): peak = 1070.980 ; gain = 83.086 ; free physical = 4023 ; free virtual = 9609
 Command: synth_design -top tdc_front_top -part xc7vx485tffg1761-2 -fanout_limit 50 -keep_equivalent_registers
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
-INFO: [Common 17-1223] The version limit for your license is '2015.07' and will expire in -199 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1223] The version limit for your license is '2015.07' and will expire in -200 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 WARNING: [Synth 8-2507] parameter declaration becomes local in gen_test_pulse_lite_v1_0_S00_AXI with formal parameter declaration list [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ipshared/fedadesign.com/gen_test_pulse_lite_v1_0/23027819/hdl/gen_test_pulse_lite_v1_0_S00_AXI.v:527]
 WARNING: [Synth 8-2507] parameter declaration becomes local in gen_test_pulse_lite_v1_0_S00_AXI with formal parameter declaration list [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ipshared/fedadesign.com/gen_test_pulse_lite_v1_0/23027819/hdl/gen_test_pulse_lite_v1_0_S00_AXI.v:528]
 WARNING: [Synth 8-2507] parameter declaration becomes local in gen_test_pulse_lite_v1_0_S00_AXI with formal parameter declaration list [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ipshared/fedadesign.com/gen_test_pulse_lite_v1_0/23027819/hdl/gen_test_pulse_lite_v1_0_S00_AXI.v:529]
@@ -41,7 +41,7 @@ WARNING: [Synth 8-976] ui_clk has already been declared [/mnt/share/MyGit/V7_buf
 WARNING: [Synth 8-2654] second declaration of ui_clk ignored [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/tdc_front_top.v:169]
 INFO: [Synth 8-994] ui_clk is declared here [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/tdc_front_top.v:149]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:38 . Memory (MB): peak = 1152.020 ; gain = 272.637 ; free physical = 4993 ; free virtual = 12138
+Starting RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:44 . Memory (MB): peak = 1152.012 ; gain = 272.637 ; free physical = 3938 ; free virtual = 9538
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'tdc_front_top' [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/tdc_front_top.v:8]
 	Parameter NUM_OF_CHANNEL bound to: 76 - type: integer 
@@ -157,10 +157,10 @@ INFO: [Synth 8-638] synthesizing module 'IDELAYE2__parameterized0' [/opt/Xilinx/
 	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
 	Parameter SIM_DELAY_D bound to: 0 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'IDELAYE2__parameterized0' (7#1) [/opt/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:12262]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/tdc_front_top.v:499]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/tdc_front_top.v:509]
 INFO: [Synth 8-638] synthesizing module 'IDELAYCTRL' [/opt/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:12250]
 INFO: [Synth 8-256] done synthesizing module 'IDELAYCTRL' (8#1) [/opt/Xilinx/Vivado/2015.2/scripts/rt/data/unisim_comp.v:12250]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/tdc_front_top.v:506]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/tdc_front_top.v:516]
 INFO: [Synth 8-638] synthesizing module 'tdc_en' [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/tdc_en.v:1]
 	Parameter NUM_OF_CHANNEL bound to: 76 - type: integer 
 INFO: [Synth 8-638] synthesizing module 'front_dFFs_v3' [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:1]
@@ -180,8 +180,8 @@ INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/mnt/share/My
 INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_tdc_en.v:45]
 INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_tdc_en.v:46]
 INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_tdc_en.v:47]
-INFO: [Synth 8-638] synthesizing module 'ch_fifo' [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/synth_2/.Xil/Vivado-5302-sang_linc/realtime/ch_fifo_stub.v:7]
-INFO: [Synth 8-256] done synthesizing module 'ch_fifo' (12#1) [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/synth_2/.Xil/Vivado-5302-sang_linc/realtime/ch_fifo_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'ch_fifo' [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/synth_2/.Xil/Vivado-8892-sang_linc/realtime/ch_fifo_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'ch_fifo' (12#1) [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/synth_2/.Xil/Vivado-8892-sang_linc/realtime/ch_fifo_stub.v:7]
 INFO: [Synth 8-256] done synthesizing module 'rle_enc_tdc_en' (13#1) [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_tdc_en.v:1]
 INFO: [Synth 8-256] done synthesizing module 'tdc_en' (14#1) [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/tdc_en.v:1]
 INFO: [Synth 8-638] synthesizing module 'front_TDC_1ch_cs' [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_TDC_1ch_cs.v:1]
@@ -204,8 +204,8 @@ INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/mnt/share/My
 INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/high_speed_trans.v:94]
 INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/high_speed_trans.v:95]
 INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/high_speed_trans.v:96]
-INFO: [Synth 8-638] synthesizing module 'system_big_fifo' [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/synth_2/.Xil/Vivado-5302-sang_linc/realtime/system_big_fifo_stub.v:7]
-INFO: [Synth 8-256] done synthesizing module 'system_big_fifo' (18#1) [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/synth_2/.Xil/Vivado-5302-sang_linc/realtime/system_big_fifo_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'system_big_fifo' [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/synth_2/.Xil/Vivado-8892-sang_linc/realtime/system_big_fifo_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'system_big_fifo' (18#1) [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.runs/synth_2/.Xil/Vivado-8892-sang_linc/realtime/system_big_fifo_stub.v:7]
 INFO: [Synth 8-638] synthesizing module 'tp_gen' [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/tp_gen.v:8]
 	Parameter ST_INIT bound to: 2'b00 
 	Parameter ST_0 bound to: 2'b01 
@@ -30157,7 +30157,7 @@ WARNING: [Synth 8-3917] design tdc_front_top has port o_clk_mux_sel1 driven by c
 WARNING: [Synth 8-3331] design tdc_front_top has unconnected port ufl_ref_ch_out
 WARNING: [Synth 8-3331] design tdc_front_top has unconnected port i_tdc_in[75]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:12:11 ; elapsed = 00:13:15 . Memory (MB): peak = 2224.441 ; gain = 1345.059 ; free physical = 3914 ; free virtual = 11061
+Finished RTL Elaboration : Time (s): cpu = 00:13:13 ; elapsed = 00:14:14 . Memory (MB): peak = 2225.496 ; gain = 1346.121 ; free physical = 2830 ; free virtual = 8463
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -30268,7 +30268,7 @@ INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINA[69] to constant 0
 INFO: [Synth 8-3295] tying undriven pin \prim_noinit.ram :DINA[68] to constant 0 [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/7b054ed9/hdl/blk_mem_gen_v8_2_vhsyn_rfs.vhd:183501]
 INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:12:22 ; elapsed = 00:13:36 . Memory (MB): peak = 2224.441 ; gain = 1345.059 ; free physical = 3727 ; free virtual = 11060
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:13:24 ; elapsed = 00:14:35 . Memory (MB): peak = 2225.496 ; gain = 1346.121 ; free physical = 2644 ; free virtual = 8463
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 529 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -30291,7 +30291,7 @@ Finished Parsing XDC File [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_
 Parsing XDC File [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_mig_7series_0_0/axi_system_mig_7series_0_0/user_design/constraints/axi_system_mig_7series_0_0.xdc] for cell 'axi_system_inst/axi_system_i/mig_7series_0'
 Finished Parsing XDC File [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_mig_7series_0_0/axi_system_mig_7series_0_0/user_design/constraints/axi_system_mig_7series_0_0.xdc] for cell 'axi_system_inst/axi_system_i/mig_7series_0'
 INFO: [Timing 38-2] Deriving generated clocks
-write_xdc: Time (s): cpu = 00:00:29 ; elapsed = 00:00:10 . Memory (MB): peak = 3060.051 ; gain = 26.000 ; free physical = 2983 ; free virtual = 10327
+write_xdc: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 3060.020 ; gain = 10.000 ; free physical = 1931 ; free virtual = 7860
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_mig_7series_0_0/axi_system_mig_7series_0_0/user_design/constraints/axi_system_mig_7series_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tdc_front_top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/tdc_front_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/bd/axi_system/ip/axi_system_axi_dma_0_0/axi_system_axi_dma_0_0.xdc] for cell 'axi_system_inst/axi_system_i/axi_dma_0/U0'
@@ -30331,16 +30331,16 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 96 instances
   SRL16 => SRL16E: 2 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 3155.137 ; gain = 0.000 ; free physical = 2885 ; free virtual = 10231
+Constraint Validation Runtime : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3198.105 ; gain = 0.000 ; free physical = 1790 ; free virtual = 7722
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:15:27 ; elapsed = 00:16:28 . Memory (MB): peak = 3155.137 ; gain = 2275.754 ; free physical = 2689 ; free virtual = 10231
+Finished Constraint Validation : Time (s): cpu = 00:16:12 ; elapsed = 00:17:17 . Memory (MB): peak = 3198.105 ; gain = 2318.730 ; free physical = 1594 ; free virtual = 7722
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7vx485tffg1761-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:15:27 ; elapsed = 00:16:28 . Memory (MB): peak = 3155.137 ; gain = 2275.754 ; free physical = 2689 ; free virtual = 10231
+Finished Loading Part and Timing Information : Time (s): cpu = 00:16:12 ; elapsed = 00:17:17 . Memory (MB): peak = 3198.105 ; gain = 2318.730 ; free physical = 1594 ; free virtual = 7722
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -30371,7 +30371,7 @@ Applied set_property DONT_TOUCH = true for axi_system_inst/axi_system_i/proc_sys
 Applied set_property DONT_TOUCH = true for axi_system_inst/axi_system_i/regfiles_lite_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for axi_system_inst/axi_system_i/tdc_calib_capture_lite_0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:15:33 ; elapsed = 00:16:35 . Memory (MB): peak = 3155.137 ; gain = 2275.754 ; free physical = 2689 ; free virtual = 10231
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:16:19 ; elapsed = 00:17:26 . Memory (MB): peak = 3198.105 ; gain = 2318.730 ; free physical = 1593 ; free virtual = 7722
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "ps_data_cnt_ld" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5545] ROM "rg_con_start" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
@@ -30718,7 +30718,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'cal1_state_r_reg' using en
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'mig_7series_v2_3_axi_mc_r_channel'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:17:03 ; elapsed = 00:18:11 . Memory (MB): peak = 3155.137 ; gain = 2275.754 ; free physical = 2714 ; free virtual = 10256
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:17:46 ; elapsed = 00:18:59 . Memory (MB): peak = 3198.105 ; gain = 2318.730 ; free physical = 1616 ; free virtual = 7745
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -37126,27 +37126,6 @@ Detailed RTL Component Info :
 	                1 Bit    Registers := 6     
 +---Muxes : 
 	   2 Input      1 Bit        Muxes := 1     
-Module rle_enc_tdc_en 
-Detailed RTL Component Info : 
-+---Registers : 
-	               76 Bit    Registers := 2     
-	               39 Bit    Registers := 2     
-	               17 Bit    Registers := 2     
-	               12 Bit    Registers := 5     
-	                2 Bit    Registers := 1     
-	                1 Bit    Registers := 8     
-+---Muxes : 
-	   2 Input      1 Bit        Muxes := 5     
-Module range_gate_con 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 1     
-+---Registers : 
-	                3 Bit    Registers := 2     
-	                2 Bit    Registers := 1     
-	                1 Bit    Registers := 4     
-+---Muxes : 
-	   2 Input      1 Bit        Muxes := 3     
 Module rle_enc_v2__114 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -37228,6 +37207,27 @@ Detailed RTL Component Info :
 	                1 Bit    Registers := 6     
 +---Muxes : 
 	   2 Input      1 Bit        Muxes := 1     
+Module rle_enc_tdc_en 
+Detailed RTL Component Info : 
++---Registers : 
+	               76 Bit    Registers := 2     
+	               39 Bit    Registers := 2     
+	               17 Bit    Registers := 2     
+	               12 Bit    Registers := 5     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+Module range_gate_con 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 3     
 Module rle_enc_v2__123 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -37495,7 +37495,7 @@ BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:17:08 ; elapsed = 00:18:19 . Memory (MB): peak = 3155.137 ; gain = 2275.754 ; free physical = 2713 ; free virtual = 10256
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:17:51 ; elapsed = 00:19:06 . Memory (MB): peak = 3198.105 ; gain = 2318.730 ; free physical = 1616 ; free virtual = 7744
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
@@ -37572,9 +37572,9 @@ WARNING: [Synth 8-3331] design tdc_front_top__GCB1 has unconnected port calib_bi
 WARNING: [Synth 8-3331] design tdc_front_top__GCB1 has unconnected port calib_bit[1]
 WARNING: [Synth 8-3331] design tdc_front_top__GCB1 has unconnected port calib_bit[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:17:22 ; elapsed = 00:19:39 . Memory (MB): peak = 3174.781 ; gain = 2295.398 ; free physical = 565 ; free virtual = 8108
+Finished Cross Boundary Optimization : Time (s): cpu = 00:18:05 ; elapsed = 00:20:36 . Memory (MB): peak = 3217.750 ; gain = 2338.375 ; free physical = 117 ; free virtual = 5619
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:17:22 ; elapsed = 00:19:39 . Memory (MB): peak = 3174.781 ; gain = 2295.398 ; free physical = 565 ; free virtual = 8108
+Finished Parallel Reinference  : Time (s): cpu = 00:18:05 ; elapsed = 00:20:36 . Memory (MB): peak = 3217.750 ; gain = 2338.375 ; free physical = 117 ; free virtual = 5619
 
 Report RTL Partitions: 
 +------+-----------------------------------------------------+------------+----------+
@@ -37868,9 +37868,9 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ddr_cal
 INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:18:18 ; elapsed = 00:20:56 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 244 ; free virtual = 7786
+Finished Area Optimization : Time (s): cpu = 00:19:10 ; elapsed = 00:22:08 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 133 ; free virtual = 5206
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:18:18 ; elapsed = 00:20:56 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 244 ; free virtual = 7786
+Finished Parallel Area Optimization  : Time (s): cpu = 00:19:10 ; elapsed = 00:22:08 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 133 ; free virtual = 5206
 
 Report RTL Partitions: 
 +------+-----------------------------------------------------+------------+----------+
@@ -37900,7 +37900,7 @@ Report RTL Partitions:
 |22    |tdc_front_top__GCB1                                  |           1|      9477|
 |23    |tdc_front_top__GCB2                                  |           1|      6743|
 +------+-----------------------------------------------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:18:18 ; elapsed = 00:20:56 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 244 ; free virtual = 7786
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:19:10 ; elapsed = 00:22:08 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 133 ; free virtual = 5206
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
@@ -37908,7 +37908,7 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:18:52 ; elapsed = 00:22:12 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 215 ; free virtual = 7758
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:19:57 ; elapsed = 00:24:00 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 131 ; free virtual = 5178
 ---------------------------------------------------------------------------------
 Found timing loop:
      0: i_1/i_19/i_145/O (GATE_2_1_NOR)
@@ -37929,7 +37929,7 @@ WARNING: [Synth 8-295] found timing loop. [/mnt/share/MyGit/V7_bufh_place_v2_0/V
 WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_disable_timing i_1/i_19/i_145 -from I0 -to O'
 WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_disable_timing i_1/i_19/i_151 -from I1 -to O'
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:19:21 ; elapsed = 00:22:47 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 212 ; free virtual = 7755
+Finished Timing Optimization : Time (s): cpu = 00:20:26 ; elapsed = 00:24:36 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 125 ; free virtual = 5174
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -37991,7 +37991,7 @@ WARNING: [Synth 8-295] found timing loop. [/mnt/share/MyGit/V7_bufh_place_v2_0/V
 WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_12104/O'
 WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_12158/O'
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:21:08 ; elapsed = 00:24:45 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 224 ; free virtual = 7767
+Finished Technology Mapping : Time (s): cpu = 00:22:14 ; elapsed = 00:26:35 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 264 ; free virtual = 5297
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -38109,110 +38109,110 @@ INFO: [Common 17-14] Message 'Synth 8-4618' appears 100 times and further instan
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/rle_enc_v2.v:94]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_TDC_1ch_cs.v:173]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_TDC_1ch_cs.v:172]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v4.v:65]
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [/mnt/share/MyGit/V7_bufh_place_v2_0/V7_bufh_place_v2_0.srcs/sources_1/imports/front_dFFs_v3.v:65]
 INFO: [Common 17-14] Message 'Synth 8-5396' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-4560] design has 24 instantiated BUFGs while the limit set by the -bufg synthesis option is 12
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:21:16 ; elapsed = 00:24:54 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 211 ; free virtual = 7754
+Finished IO Insertion : Time (s): cpu = 00:22:22 ; elapsed = 00:26:44 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 260 ; free virtual = 5293
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -38225,7 +38225,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:21:17 ; elapsed = 00:24:55 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 211 ; free virtual = 7754
+Finished Renaming Generated Instances : Time (s): cpu = 00:22:24 ; elapsed = 00:26:46 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 259 ; free virtual = 5293
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -38237,13 +38237,13 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:21:36 ; elapsed = 00:25:14 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 211 ; free virtual = 7754
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:22:42 ; elapsed = 00:27:05 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 251 ; free virtual = 5286
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Start Renaming Generated Ports : Time (s): cpu = 00:21:36 ; elapsed = 00:25:14 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 211 ; free virtual = 7754
+Start Renaming Generated Ports : Time (s): cpu = 00:22:42 ; elapsed = 00:27:05 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 251 ; free virtual = 5286
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:21:36 ; elapsed = 00:25:15 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 211 ; free virtual = 7754
+Finished Renaming Generated Ports : Time (s): cpu = 00:22:43 ; elapsed = 00:27:06 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 251 ; free virtual = 5286
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -38411,7 +38411,7 @@ Report Cell Usage:
 |90    |IDELAYE2_3             |     1|
 |91    |IN_FIFO                |     8|
 |92    |ISERDESE2              |    64|
-|93    |LUT1                   |  1299|
+|93    |LUT1                   |  1308|
 |94    |LUT2                   |  2862|
 |95    |LUT3                   |  5355|
 |96    |LUT4                   |  3181|
@@ -38468,7 +38468,7 @@ Report Instance Areas:
 +------+---------------------------------------------------------------------------------------+----------------------------------------------------------------+------+
 |      |Instance                                                                               |Module                                                          |Cells |
 +------+---------------------------------------------------------------------------------------+----------------------------------------------------------------+------+
-|1     |top                                                                                    |                                                                | 97381|
+|1     |top                                                                                    |                                                                | 97390|
 |2     |  DSI_inst                                                                             |DSI                                                             |    92|
 |3     |  SPI_CLK_inst                                                                         |SPI_CLK                                                         |   122|
 |4     |  axi_system_inst                                                                      |axi_system_wrapper                                              | 63810|
@@ -39823,11 +39823,11 @@ Report Instance Areas:
 |1353  |    rle_enc_inst_cs                                                                    |rle_enc_v2                                                      |   366|
 +------+---------------------------------------------------------------------------------------+----------------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:21:41 ; elapsed = 00:25:20 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 211 ; free virtual = 7754
+Finished Writing Synthesis Report : Time (s): cpu = 00:22:48 ; elapsed = 00:27:11 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 249 ; free virtual = 5286
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 22483 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:23:39 ; elapsed = 00:22:23 . Memory (MB): peak = 3184.785 ; gain = 1169.098 ; free physical = 2766 ; free virtual = 10309
-Synthesis Optimization Complete : Time (s): cpu = 00:26:44 ; elapsed = 00:25:22 . Memory (MB): peak = 3184.785 ; gain = 2305.402 ; free physical = 2766 ; free virtual = 10309
+Synthesis finished with 0 errors, 0 critical warnings and 3279 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:25:49 ; elapsed = 00:24:20 . Memory (MB): peak = 3227.754 ; gain = 1170.160 ; free physical = 2742 ; free virtual = 7861
+Synthesis Optimization Complete : Time (s): cpu = 00:28:36 ; elapsed = 00:27:14 . Memory (MB): peak = 3227.754 ; gain = 2348.379 ; free physical = 2743 ; free virtual = 7862
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 7790 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
@@ -39852,7 +39852,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 3856 Infos, 492 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:27:19 ; elapsed = 00:25:45 . Memory (MB): peak = 3200.867 ; gain = 2129.879 ; free physical = 2765 ; free virtual = 10309
-write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 3240.883 ; gain = 40.016 ; free physical = 2654 ; free virtual = 10309
-report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3240.883 ; gain = 0.000 ; free physical = 2654 ; free virtual = 10309
-INFO: [Common 17-206] Exiting Vivado at Mon Feb 15 20:40:29 2016...
+synth_design: Time (s): cpu = 00:29:10 ; elapsed = 00:27:35 . Memory (MB): peak = 3243.836 ; gain = 2172.855 ; free physical = 2682 ; free virtual = 7860
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 3283.852 ; gain = 40.016 ; free physical = 2569 ; free virtual = 7859
+report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3283.852 ; gain = 0.000 ; free physical = 2565 ; free virtual = 7859
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 16 21:15:21 2016...

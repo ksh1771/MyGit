@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_2" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1455534601">
+<GenRun Id="synth_2" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1455623207">
   <File Type="VDS-TIMING-PB" Name="tdc_front_top_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="tdc_front_top_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="tdc_front_top.dcp"/>

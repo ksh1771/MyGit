@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
-| Date         : Mon Feb 15 20:50:43 2016
+| Date         : Tue Feb 16 21:25:14 2016
 | Host         : sang_linc running 64-bit Red Hat Enterprise Linux Client release 6.5 (Santiago)
 | Command      : report_io -file tdc_front_top_io_placed.rpt
 | Design       : tdc_front_top

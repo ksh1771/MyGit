@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
-| Date         : Mon Feb 15 20:40:27 2016
+| Date         : Tue Feb 16 21:15:19 2016
 | Host         : sang_linc running 64-bit Red Hat Enterprise Linux Client release 6.5 (Santiago)
 | Command      : report_utilization -file tdc_front_top_utilization_synth.rpt -pb tdc_front_top_utilization_synth.pb
 | Design       : tdc_front_top
@@ -30,8 +30,8 @@ Table of Contents
 +----------------------------+-------+-------+-----------+-------+
 |          Site Type         |  Used | Fixed | Available | Util% |
 +----------------------------+-------+-------+-----------+-------+
-| Slice LUTs*                | 32521 |     0 |    303600 | 10.71 |
-|   LUT as Logic             | 29794 |     0 |    303600 |  9.81 |
+| Slice LUTs*                | 32530 |     0 |    303600 | 10.71 |
+|   LUT as Logic             | 29803 |     0 |    303600 |  9.82 |
 |   LUT as Memory            |  2727 |     0 |    130800 |  2.08 |
 |     LUT as Distributed RAM |  1716 |     0 |           |       |
 |     LUT as Shift Register  |  1011 |     0 |           |       |
@@ -173,7 +173,7 @@ Table of Contents
 | RAMD32                 |  2502 |  Distributed Memory |
 | MUXF7                  |  1886 |               MuxFx |
 | CARRY4                 |  1461 |          CarryLogic |
-| LUT1                   |  1291 |                 LUT |
+| LUT1                   |  1300 |                 LUT |
 | RAMS32                 |   834 |  Distributed Memory |
 | SRLC32E                |   809 |  Distributed Memory |
 | FDSE                   |   788 |        Flop & Latch |

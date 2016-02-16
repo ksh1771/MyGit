@@ -1,13 +1,29 @@
 Design Route Status
                                                :      # nets :
    ------------------------------------------- : ----------- :
-   # of logical nets.......................... :      107406 :
-       # of nets not needing routing.......... :       32097 :
-           # of internally routed nets........ :       25216 :
+   # of logical nets.......................... :      107397 :
+       # of nets not needing routing.......... :       32121 :
+           # of internally routed nets........ :       25240 :
            # of nets with no loads............ :        6881 :
-       # of routable nets..................... :       75309 :
-           # of nets with fixed routing....... :          76 :
-           # of fully routed nets............. :       75309 :
-       # of nets with routing errors.......... :           0 :
+       # of routable nets..................... :       75276 :
+           # of nets with fixed routing....... :          78 :
+           # of fully routed nets............. :       75275 :
+       # of nets with routing errors.......... :           1 :
+           # of nets with antennas/islands.... :           1 :
    ------------------------------------------- : ----------- :
+
+
+Nets with Routing Errors:
+  clk_mmcme_main_1/CLK_OUT1
+    Antenna Nodes -- only the first 10 are listed, use -show_all to get the full list:
+      CLBLL_L_X56Y251/CLBLL_LL_CLK
+      CLBLL_L_X56Y262/CLBLL_LL_CLK
+      CLBLL_L_X56Y266/CLBLL_L_CLK
+      CLBLL_L_X60Y250/CLBLL_LL_CLK
+      CLBLL_L_X60Y266/CLBLL_L_CLK
+      CLBLL_L_X60Y268/CLBLL_LL_CLK
+      CLBLL_R_X57Y250/CLBLL_LL_CLK
+      CLBLL_R_X57Y268/CLBLL_L_CLK
+      CLBLL_R_X61Y266/CLBLL_L_CLK
+      CLBLL_R_X61Y267/CLBLL_L_CLK
 

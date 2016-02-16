@@ -48,6 +48,7 @@ set_msg_config -id {HDL 9-1654} -limit 100000
 start_step init_design
 set rc [catch {
   create_msg_db init_design.pb
+  debug::add_scope route 5
   debug::add_scope template.lib 1
   create_project -in_memory -part xc7vx485tffg1761-2
   set_property board_part xilinx.com:vc707:part0:1.0 [current_project]
